@@ -1,0 +1,16 @@
+name = "temp-mail"
+main = "src/worker.js"
+compatibility_date = "2024-02-01"
+workers_dev = true
+node_compat = true
+
+routes = []
+kv_namespaces = []
+
+[vars]
+website_name= "Anonymous mail"
+email_domain = '["anons.email"]'
+custom_email_domain = '["ct.anons.email"]'
+contact_email = "contact@anons.email"
+abuse_email = "abuse@anons.email"
+dropMail_email = "drop@anons.email"
